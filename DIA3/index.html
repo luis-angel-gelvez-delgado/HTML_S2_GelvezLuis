@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro web / Mi web</title>
+</head>
+<body>
+
+
+    <form action="" method="post">
+        <h2>Informacion Personal</h2>
+
+
+
+
+    <label for="name">Nombre</label>
+    <input type="text" id="name" name="name" maxlength="50" required>
+
+
+    <br>
+
+
+    <label for="lastName">Apellido</label>    
+    <input type="text" id="lastName" name="lastName" maxlength="50" required>
+
+
+    <br>
+
+    <br>
+
+
+    <p>Elija su género:</p>
+
+
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Hombre</label><br>
+
+
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Mujer</label>
+
+
+        <br>
+        <br>
+         <label for="emailUsuario">Correo Electrónico:</label><br>
+        <input type="email" id="emailUsuario" name="email" required placeholder="juanito@dominio.com"><br><br>
+
+
+        <br>
+
+
+        <input type="checkbox" id="recibirNovedades" name="novedades/ofertas" value="si" checked>
+        <label for="recibirNovedades">Deseo recibir información sobre novedades y ofertas</label><br><br>
+       
+        <input type="checkbox" id="condicionesNormativa" name="aceptarNormativa">
+        <label for="condicionesNormativa">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br><br>
+       
+        <label for="poblacion">Población:</label><br>
+        <select id="poblacion" name="poblacion">
+            <option value="bucaramanga">Bucaramanga</option>
+            <option value="giron">Girón</option>
+            <option value="floridablanca">Floridablanca</option>
+            <option value="piedecuesta">Piedecuesta</option>
+        </select>
+        <br>
+        <br>
+
+
+
+
+        <label for="descripcion">Descripción:</label><br>
+        <textarea id="descripcion" name="descripcion" rows="3" cols="40"></textarea>
+        <br>
+       
+        <br>
+
+
+
+
+        <input type="submit" value="Enviar">
+
+
+    </form>
+
+<img src="./img/formu.png" alt="">
+</body>
+</html>

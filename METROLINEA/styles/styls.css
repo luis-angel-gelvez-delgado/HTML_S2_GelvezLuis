@@ -1,0 +1,18 @@
+.fondoDif{
+    background-color: aqua;
+    background-image: linear-gradient(#fff, #e6e6e6, #808080);
+
+    top: 0px;
+    left: 0px;
+    width: 1600px;
+    height: 1200px;
+}
+
+.metroSite{
+    background-color:aqua;
+    top: 200px;
+    left: 100px;
+    width: 1400px;
+    height: 800px;
+
+}

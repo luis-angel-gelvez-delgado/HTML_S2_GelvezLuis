@@ -1,0 +1,8 @@
+.elemento{
+    background-color:hotpink;
+    background-color:skyblue;
+    background-color: rgb(60, 69, 254);
+    background-image:linear-gradient(to right, black 0%, white 25%, blue 30%, gold 50% , red 100%);
+    color:white;
+    padding: 79px;
+}
