@@ -1,0 +1,43 @@
+body{
+    background-image: url(/img/FondoTwitch@2x.png);
+    background-size: 100%;;
+    align-items: center;
+    text-align:center;
+}
+
+.fondoPrincipal{
+    background-color: black;
+}
+.barra_login_search{
+    background-color: aqua;
+    position: absolute;
+}
+
+#loginBT{
+    position: absolute;
+    top: 30px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+    padding: 8px;
+}
+
+#search{
+    position: absolute;
+    top: 37px;
+    left: 63px;
+    width: 36px;
+    height: 36px;
+}
+
+#buttonLogin{
+    padding: 8px;
+    border-radius: 20px;
+    width: 80px;
+}
+
+#buttonSignUp{
+    padding: 8px;
+    border-radius: 20px;
+    width: 100px;
+}
