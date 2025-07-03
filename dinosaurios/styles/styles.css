@@ -4,7 +4,7 @@
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
     grid-gap: 10px;
     background-color: black;
     padding: 10px;
@@ -24,7 +24,7 @@
     grid-row-end: 10;
 }
 
-.wedeeply {
+.wedeeply{
     grid-column-start: 2;
     grid-row-start: 1;
     grid-row-end: 10;
@@ -40,6 +40,36 @@
 
 
 
+.terodactilo{
+    background-image: url(./../Gift/1.gif);
+    background-size: cover;
+    height: 20vh;
+}
+
+.plastick2023{
+    background-image: url(./../Gift/2.gif);
+    background-size: cover;
+    height: 20vh;
+}
+
+.wedeeply{
+    background-image: url(./../Gift/txtPage1.jpg);
+    background-size: cover;
+    height: 20vh;
+}
+
+.littleChanges{
+    background-image: url(./../Gift/3.gif);
+    background-size: cover;
+    height: 40vh;
+}
+
+
+
+
+
+
+
 
 
 
@@ -51,7 +81,7 @@
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
     grid-gap: 15px;
     background-color: black;
     padding: 10px;
@@ -64,7 +94,7 @@
     font-size: 33px;
 }
 
-.triceratop {
+.tricePage2 {
     grid-column-start: 1;
     grid-row-start: 20;
     grid-row-end: 10;
@@ -81,4 +111,24 @@
     grid-row-start: 1;
     grid-row-end: 20;
 
+}
+
+
+.txtVerde{
+    background-image: url(./../Gift/txtPage2.jpg);
+    background-size: cover;
+    height: 20vh;
+}
+
+.tricePage2{
+    background-image: url(./../Gift/tricePage2.gif);
+    background-size: cover;
+    height: 20vh;
+}
+
+
+.collageImg{
+    background-image: url(./../Gift/collageImg.jpeg);
+    background-size: cover;
+    height: 20vh;
 }
