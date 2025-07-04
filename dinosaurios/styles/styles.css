@@ -5,17 +5,17 @@
     margin-right: auto;
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 10px;
+    grid-gap: 1vw;
     background-color: black;
-    padding: 10px;
+    padding: 1.5vw;
 }
 
 .page1 > div {
     color: white;
     background-color: rgba(255, 255, 255, 0.1);
     text-align: center;
-    padding: 20px ;
-    font-size: 30px;
+    padding: 2vw ;
+    border-radius: 3%;
 }
 
 .plastick2023 {
@@ -43,36 +43,30 @@
 .terodactilo{
     background-image: url(./../Gift/1.gif);
     background-size: cover;
-    height: 20vh;
+    width: 35vw;
+    height: 20vw;
 }
 
 .plastick2023{
     background-image: url(./../Gift/2.gif);
     background-size: cover;
-    height: 20vh;
+    width: 35vw;
+    height: 20vw;
 }
 
 .wedeeply{
     background-image: url(./../Gift/txtPage1.jpg);
     background-size: cover;
-    height: 20vh;
+    width: 33vw;
+    height: 45vw;
 }
 
 .littleChanges{
     background-image: url(./../Gift/3.gif);
     background-size: cover;
+    width: 70vh;
     height: 40vh;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -82,16 +76,15 @@
     margin-right: auto;
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 15px;
     background-color: black;
-    padding: 10px;
+    padding: 1vw;
 }
 .page2 > div {
-    color: white;
     background-color: rgba(255, 255, 255, 0.1);
     text-align: center;
-    padding: 20px ;
-    font-size: 33px;
+    padding: 6vw ;
+    font-size: 3.3vw;
+    border-radius: 5%;
 }
 
 .tricePage2 {
@@ -117,18 +110,21 @@
 .txtVerde{
     background-image: url(./../Gift/txtPage2.jpg);
     background-size: cover;
-    height: 20vh;
+    height: 15vw;
+    width: 30vw;
 }
 
 .tricePage2{
     background-image: url(./../Gift/tricePage2.gif);
     background-size: cover;
-    height: 20vh;
+    height: 15vw;
+    width: 30vw;
 }
 
 
 .collageImg{
     background-image: url(./../Gift/collageImg.jpeg);
     background-size: cover;
-    height: 20vh;
+    width: 30vw;
+    height: 50vw;
 }
