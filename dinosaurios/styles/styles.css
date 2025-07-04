@@ -1,39 +1,40 @@
+body{
+    background-color: black;
+    margin: auto;
+    padding: auto;
+}
+
 
 
 .page1 {
-    margin-left: auto;
-    margin-right: auto;
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 1vw;
     background-color: black;
-    padding: 1.5vw;
+    padding: 1.4vw;
 }
 
 .page1 > div {
     color: white;
     background-color: rgba(255, 255, 255, 0.1);
     text-align: center;
-    padding: 2vw ;
     border-radius: 3%;
 }
 
 .plastick2023 {
     grid-column-start: 1;
-    grid-row-start: 2;
-    grid-row-end: 10;
+    width: auto;
 }
 
 .wedeeply{
     grid-column-start: 2;
     grid-row-start: 1;
-    grid-row-end: 10;
+    grid-row-end: 3;
+
 }
 
 .littleChanges {
     grid-column-start: 1;
-    grid-row-start: 10;
-    grid-row-end: 10;
     grid-column-end: 3;
 }
 
@@ -43,66 +44,52 @@
 .terodactilo{
     background-image: url(./../Gift/1.gif);
     background-size: cover;
-    width: 35vw;
-    height: 20vw;
+    width: auto;
+    height: 30vw;
 }
-
 .plastick2023{
     background-image: url(./../Gift/2.gif);
     background-size: cover;
-    width: 35vw;
-    height: 20vw;
+    width: auto;
+    height: 30vw;
 }
 
 .wedeeply{
     background-image: url(./../Gift/txtPage1.jpg);
     background-size: cover;
-    width: 33vw;
-    height: 45vw;
 }
 
 .littleChanges{
     background-image: url(./../Gift/3.gif);
     background-size: cover;
-    width: 70vh;
-    height: 40vh;
+    width: auto;
+    height: 55vw;
 }
 
 
 
 
 .page2 {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     display: grid;
     grid-template-columns: auto auto;
     background-color: black;
-    padding: 1vw;
+    padding: 1.4vw;
+    border-radius: 1%;
+    grid-gap: 1vw;
 }
 .page2 > div {
     background-color: rgba(255, 255, 255, 0.1);
     text-align: center;
     padding: 6vw ;
-    font-size: 3.3vw;
-    border-radius: 5%;
+    border-radius: 3%;
 }
 
-.tricePage2 {
-    grid-column-start: 1;
-    grid-row-start: 20;
-    grid-row-end: 10;
-}
-
-.txtVerde {
-    grid-column-start: 1;
-    grid-row-start: 1;
-    grid-row-end: 10;
-}
 
 .collageImg {
     grid-column-start: 2;
     grid-row-start: 1;
-    grid-row-end: 20;
+    grid-row-end: 3;
 
 }
 
@@ -110,21 +97,19 @@
 .txtVerde{
     background-image: url(./../Gift/txtPage2.jpg);
     background-size: cover;
-    height: 15vw;
-    width: 30vw;
+    height: 20vw;
+    width: auto;
 }
 
 .tricePage2{
     background-image: url(./../Gift/tricePage2.gif);
     background-size: cover;
-    height: 15vw;
-    width: 30vw;
+    height: 20vw;
+    width: auto;
 }
 
 
 .collageImg{
     background-image: url(./../Gift/collageImg.jpeg);
     background-size: cover;
-    width: 30vw;
-    height: 50vw;
 }
