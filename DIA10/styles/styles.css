@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+    margin: auto;
+    padding: auto;
+}
+
+.pagina {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1vw;
+    background-color: black;
+    padding: 1vw;
+}
+
+.pagina > div {
+    color: white;
+    background-color: gray;
+    text-align: center;
+    padding: 5vw 0;
+    border-radius: 5%;
+}
+
+.papelAnimal {
+    grid-column-end: span 2;
+    width: auto;
+}
+
+.comboAlto {
+    grid-column-start: 1;
+    grid-row-end: span 2;
+}
+
+.fastFood {
+    grid-column-end: span 2;
+}
+
+.comboBajo {
+    grid-column-end: span 2;
+}
+
+.caraAnimal{
+    background-image: url(./../img/caraAnimal.png);
+    background-size: cover;
+    width: auto;
+    height: 15vw;
+}
+
+.tenedor{
+    background-image: url(./../img/tenedor.png);
+    background-size: cover;
+    width: auto;
+    height: 15vw;
+}
+
+.papelAnimal{
+    background-image: url(./../img/papelAnimal.png);
+    background-size: cover;
+    width: auto;
+    height: 15vw;
+}
+
+.comboAlto{
+    background-image: url(./../img/comboAlto.png);
+    background-size: cover;
+    width: auto;
+    height: 40vw;
+}
+
+.fastFood{
+    background-image: url(./../img/fastfood.png);
+    background-size: cover;
+    width: auto;
+    height: 15vw;
+}
+
+.cicla{
+    background-image: url(./../img/cicla.png);
+    background-size: cover;
+    width: auto;
+    height: 15vw;
+}
+
+
+.comboBajo{
+    background-image: url(./../img/comboBajo.png);
+    background-size: cover;
+    width: auto;
+    height: 15vw;
+}
+
+.logoAnimal{
+    background-image: url(./../img/logoAnimal.png);
+    background-size: cover;
+    width: auto;
+    height: 15vw;
+}
