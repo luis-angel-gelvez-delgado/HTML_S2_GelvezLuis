@@ -1,0 +1,65 @@
+.elemento{
+    background-color: rgb(255, 61, 94);
+    width: 20vh;
+    height: 20vh;
+    color: white;
+    text-align: center;
+    line-height: 20vh;
+    /*definir la animacion en duracion*/
+    transition-duration: 3s;
+    transition-timing-function:linear ;
+}
+
+.elemento:hover{
+    /*primer ejemmplo- anima todas las propiedades que cambien de estado*/
+    width: 30vh;
+    height: 30vh;
+    background-color: pink;
+}
+
+.tercerEjemplo{
+    background-color: blue;
+    width: 10vh;
+    height: 10vh;
+}
+
+.tercerEjemplo:hover{
+    animation: cambiar-color 5s;
+    background-color: teal;
+}
+
+@keyframes cambiar-color{
+    0%{
+        background-color: blue;
+    }
+    10%{
+        background-color: yellow;
+    }
+    20%{
+        background-color:darkmagenta ;
+    }
+    30%{
+        background-color: aquamarine;
+    }
+    40%{
+        background-color: yellowgreen;
+    }
+    50%{
+        background-color: lightblue;
+    }
+    60%{
+        background-color: aqua;
+    }
+    70%{
+        background-color: salmon;
+    }
+    80%{
+        background-color: indigo;
+    }
+    90%{
+        background-color: darkorange;
+    }
+    100%{
+        background-color: teal;
+    }
+}
