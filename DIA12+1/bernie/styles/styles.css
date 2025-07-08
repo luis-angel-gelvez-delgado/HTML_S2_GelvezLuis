@@ -1,0 +1,55 @@
+body{
+    background-color: aqua;
+}
+
+.cieloBernie{
+    background-image: url(./../img/cieloBernie.webp);
+    width: 250vh;
+    height: 40vh;
+    position: relative;
+    top: -24vh;
+}
+
+.berniePj{
+    margin: auto;
+    top: 28vw;
+    image-rendering: pixelated;
+    position: relative;
+    width: 60px;
+    height: 100px;
+    background: url(../img/berniePj.webp);
+    background-size:cover;
+    animation: movimiento .46s steps(7) infinite;
+}
+
+@keyframes movimiento{
+    from{
+background-position: 0px;
+    }
+    to{
+        background-position: -2000px;
+    }
+}
+
+.puenteBernie{
+    margin: auto;
+    top: 3vw;
+    image-rendering: pixelated;
+    position: fixed;
+    width: 100vh;
+    height: 30vh;
+    left: 55vh;
+    top: -5vh;
+    background: url(../img/puenteBernie.webp);
+    background-size:cover;
+    animation: movimiento .46s steps(7) infinite;
+}
+
+@keyframes movimiento{
+    from{
+background-position: 0px;
+    }
+    to{
+        background-position: -2000px;
+    }
+}
